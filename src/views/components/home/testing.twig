@@ -6,7 +6,7 @@ views/pages/brands/single.twig | #}
 <section class="block">
   <div class="flex flex-wrap gap-4">
     {% for test in component.testing %}
-    <img src="{test.value}" alt="{test.label}" />
+    <img src="{{ test.value }}" alt="{{ test.label }}" />
     {% endfor %}
   </div>
 </section>
