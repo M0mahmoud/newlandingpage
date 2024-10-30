@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "e5ec0326-7138-4aad-a62c-79882fa93a91",
+            "title": "Testing",
+            "icon": "sicon-store",
+            "path": "home.testing",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
