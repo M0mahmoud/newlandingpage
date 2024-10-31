@@ -824,6 +824,45 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
+                            "id": "collection.image_copy_copy_copy",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image copy copy copy",
+                            "description": "IMAGE - Helper Text",
+                            "labelHTML": "IMAGE -Label HTML",
+                            "placeholder": "Placeholder",
+                            "icon": "sicon-image",
+                            "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+                            "required": true,
+                            "public": true
+                        },
+                        {
+                            "id": "collection.image_copy_copy",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image copy copy",
+                            "description": "IMAGE - Helper Text",
+                            "labelHTML": "IMAGE -Label HTML",
+                            "placeholder": "Placeholder",
+                            "icon": "sicon-image",
+                            "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+                            "required": true,
+                            "public": true
+                        },
+                        {
+                            "id": "collection.image_copy",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image copy",
+                            "description": "IMAGE - Helper Text",
+                            "labelHTML": "IMAGE -Label HTML",
+                            "placeholder": "Placeholder",
+                            "icon": "sicon-image",
+                            "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+                            "required": true,
+                            "public": true
+                        },
+                        {
                             "id": "collection.image",
                             "type": "string",
                             "format": "image",
