@@ -931,6 +931,13 @@
                     "public": true
                 }
             ]
+        },
+        {
+            "key": "0d86d056-f8f0-451c-9fb9-40e8d7d7206a",
+            "title": "m05brands",
+            "icon": "sicon-store",
+            "path": "home.m05brands",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
