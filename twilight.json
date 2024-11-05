@@ -889,56 +889,29 @@
             "path": "home.m05brands",
             "fields": [
                 {
-                    "id": "image_copy_copy_copy",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image copy copy copy",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
+                    "id": "title",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
                     "value": null,
-                    "required": true,
-                    "public": true
+                    "variant": "h2",
+                    "icon": "sicon-format-text"
                 },
                 {
-                    "id": "image_copy_copy",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image copy copy",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
+                    "id": "description",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
                     "value": null,
-                    "required": true,
-                    "public": true
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
                 },
                 {
-                    "id": "image_copy",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image copy",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": true,
-                    "public": true
-                },
-                {
-                    "id": "image",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": true,
-                    "public": true
+                    "id": "line",
+                    "type": "static",
+                    "format": "line",
+                    "label": "Line",
+                    "icon": "sicon-minus"
                 }
             ]
         }
