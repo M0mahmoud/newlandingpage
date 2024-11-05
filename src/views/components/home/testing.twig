@@ -1,12 +1,13 @@
-{# | Variable | Type | Description |
-|--------------------------------|---------|------------------------------------------------------------------------------|
-| component.testing | Image[] | list of selected brands @see
-views/pages/brands/single.twig | #}
-
 <section class="block">
   <div class="flex flex-wrap gap-4">
-    {% for test in component.testing %}
-    <img src="{{ test.value }}" alt="{{ test.label }}" />
+    <h2>{{ title }}</h2>
+    {% for image in component.collection %}
+    <div>
+      <p>
+        {{ image.description }}
+      </p>
+      <img src="{{ image.value }}" alt="{{ image.label | default('Image') }}" />
+    </div>
     {% endfor %}
   </div>
 </section>
