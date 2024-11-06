@@ -833,7 +833,8 @@
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
                             "value": null,
-                            "required": true
+                            "required": true,
+                            "public": true
                         },
                         {
                             "id": "collection.second_image_2",
@@ -845,7 +846,8 @@
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
                             "value": null,
-                            "required": true
+                            "required": true,
+                            "public": true
                         },
                         {
                             "id": "collection.image_3",
@@ -857,7 +859,8 @@
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
                             "value": null,
-                            "required": true
+                            "required": true,
+                            "public": true
                         }
                     ],
                     "value": [],
