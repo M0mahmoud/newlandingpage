@@ -604,6 +604,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .w-full{width:100%}
 .min-w-0{min-width:0px}
 .min-w-full{min-width:100%}
+.max-w-100{max-width:28rem}
 .max-w-16{max-width:4rem}
 .max-w-3xl{max-width:48rem}
 .max-w-lg{max-width:32rem}

@@ -1,15 +1,21 @@
-{#
-| Variable    | Type    | Description                                                      |
+{# | Variable | Type | Description |
 |-------------|---------|------------------------------------------------------------------|
-| url         | string  |                                                                  |
-| image.url   | string  |                                                                  |
-| image.alt   | ?string |                                                                  |
-| position    | Int     | Sorting number start from zero                                   |
-#}
+| url | string | | | image.url | string | | | image.alt | ?string | | | position
+| Int | Sorting number start from zero | #}
 <section class="s-block s-block--fixed-banner wide-placeholder">
-    <div class="container">
-        <a href="{{ url }}" class="banner banner--fixed overflow-hidden" aria-label="Banner {{ image.alt }}">
-            <img width="1200" height="300" src="{{ image.url }}" alt="{{ image.alt|trim ? image.alt : 'fixed banner' }}"/>
-        </a>
-    </div>
+  <div class="container">
+    <a
+      href="{{ url }}"
+      class="overflow-hidden banner banner--fixed"
+      aria-label="Banner {{ image.alt }}"
+    >
+      <img
+        loading="lazy"
+        width="1200"
+        height="300"
+        src="{{ image.url }}"
+        alt="{{ image.alt|trim ? image.alt : 'fixed banner' }}"
+      />
+    </a>
+  </div>
 </section>
