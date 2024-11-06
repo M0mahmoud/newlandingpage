@@ -814,71 +814,58 @@
             "path": "home.testing",
             "fields": [
                 {
-                    "id": "collection",
+                    "id": "testingid",
                     "type": "collection",
                     "format": "collection",
-                    "label": "Collection",
+                    "label": "testing-comp",
                     "description": "New Collection -Helper Text",
                     "labelHTML": "Collection -Label HTML",
                     "item_label": "ITem -- Items lable",
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "collection.image_copy_copy_copy",
+                            "id": "testingid.testingid_1",
                             "type": "string",
                             "format": "image",
-                            "label": "Image copy copy copy",
+                            "label": "first",
                             "description": "IMAGE - Helper Text",
                             "labelHTML": "IMAGE -Label HTML",
                             "placeholder": "Placeholder",
                             "icon": "sicon-image",
                             "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
                             "required": true,
-                            "public": true
+                            "public": false
                         },
                         {
-                            "id": "collection.image_copy_copy",
+                            "id": "testingid.testingid_2",
                             "type": "string",
                             "format": "image",
-                            "label": "Image copy copy",
+                            "label": "second",
                             "description": "IMAGE - Helper Text",
                             "labelHTML": "IMAGE -Label HTML",
                             "placeholder": "Placeholder",
                             "icon": "sicon-image",
                             "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
                             "required": true,
-                            "public": true
+                            "public": false
                         },
                         {
-                            "id": "collection.image_copy",
+                            "id": "testingid.testingid_3",
                             "type": "string",
                             "format": "image",
-                            "label": "Image copy",
+                            "label": "Thrid",
                             "description": "IMAGE - Helper Text",
                             "labelHTML": "IMAGE -Label HTML",
                             "placeholder": "Placeholder",
                             "icon": "sicon-image",
                             "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
                             "required": true,
-                            "public": true
-                        },
-                        {
-                            "id": "collection.image",
-                            "type": "string",
-                            "format": "image",
-                            "label": "Image",
-                            "description": "IMAGE - Helper Text",
-                            "labelHTML": "IMAGE -Label HTML",
-                            "placeholder": "Placeholder",
-                            "icon": "sicon-image",
-                            "value": "https://images.unsplash.com/photo-1570019112093-f46196e5e474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
-                            "required": true,
-                            "public": true
+                            "public": false
                         }
                     ],
                     "value": [],
                     "minLength": 1,
-                    "maxLength": "8"
+                    "maxLength": "3"
                 }
             ]
         },
