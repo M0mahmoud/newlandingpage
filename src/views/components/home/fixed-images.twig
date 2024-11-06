@@ -1,0 +1,19 @@
+{# Fixed Images Component #}
+<section class="fixed-images s-block-spacing">
+  <div class="container">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {% for item in component.fixed_images.fixedimages %}
+      <div
+        class="overflow-hidden rounded-md fixed-image-item aspect-square h-80"
+      >
+        <img
+          src="{{ item.imge }}"
+          alt="Fixed Image"
+          class="object-cover w-full h-full transition-transform duration-300 hover:scale-110"
+          loading="lazy"
+        />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
