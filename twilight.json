@@ -809,9 +809,9 @@
         },
         {
             "key": "e5ec0326-7138-4aad-a62c-79882fa93a91",
-            "title": "Testing",
+            "title": "fixed-imges",
             "icon": "sicon-store",
-            "path": "home.testing",
+            "path": "home.fixed-images",
             "fields": [
                 {
                     "id": "fixedimages",
