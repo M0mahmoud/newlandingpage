@@ -1,7 +1,7 @@
 {# Fixed Images Component #}
 <section class="fixed-images s-block-spacing">
   <div class="container">
-    <h2>Section Title</h2>
+    <h2>Section Section</h2>
     <h2>{{ title }}</h2>
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
       {% for item in component.fixedimages %}
@@ -9,7 +9,7 @@
         class="overflow-hidden rounded-md fixed-image-item aspect-square h-80"
       >
         <img
-          src="{{ item.id }}"
+          src="{{ item.imge }}"
           alt="Fixed Image"
           class="object-cover w-full h-full transition-transform duration-300 hover:scale-110"
           loading="lazy"
