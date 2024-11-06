@@ -868,39 +868,6 @@
                     "maxLength": "3"
                 }
             ]
-        },
-        {
-            "key": "0d86d056-f8f0-451c-9fb9-40e8d7d7206a",
-            "title": "m05brands",
-            "icon": "sicon-store",
-            "path": "home.m05brands",
-            "fields": [
-                {
-                    "id": "title",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": null,
-                    "variant": "h2",
-                    "icon": "sicon-format-text"
-                },
-                {
-                    "id": "description",
-                    "type": "static",
-                    "format": "description",
-                    "label": "Description",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-size"
-                },
-                {
-                    "id": "line",
-                    "type": "static",
-                    "format": "line",
-                    "label": "Line",
-                    "icon": "sicon-minus"
-                }
-            ]
         }
     ],
     "support_url": "https://example.com",
