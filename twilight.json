@@ -814,20 +814,20 @@
             "path": "home.testing",
             "fields": [
                 {
-                    "id": "collection",
+                    "id": "collection_three",
                     "type": "collection",
                     "format": "collection",
-                    "label": "Collection",
+                    "label": "Collection Three",
                     "description": null,
                     "labelHTML": null,
                     "item_label": null,
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "collection.first_image_1",
+                            "id": "collection_three.image_three",
                             "type": "string",
                             "format": "image",
-                            "label": "First Image",
+                            "label": "Image Three",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
@@ -835,12 +835,27 @@
                             "value": null,
                             "required": true,
                             "public": true
-                        },
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "collection_two",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection Two",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
                         {
-                            "id": "collection.second_image_2",
+                            "id": "collection_two.image_Two",
                             "type": "string",
                             "format": "image",
-                            "label": "Second Image",
+                            "label": "Image Two",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
@@ -848,12 +863,27 @@
                             "value": null,
                             "required": true,
                             "public": true
-                        },
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "3"
+                },
+                {
+                    "id": "collection_one",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection One",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
                         {
-                            "id": "collection.image_3",
+                            "id": "collection_one.image_one",
                             "type": "string",
                             "format": "image",
-                            "label": "Thrid Image",
+                            "label": "Image One",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
