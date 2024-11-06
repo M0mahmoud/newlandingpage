@@ -2,10 +2,10 @@
   <div class="flex flex-wrap gap-4">
     <h2>Tesing component</h2>
     <h2>{{ label }}</h2>
-    {% for image in component.testingid %}
+    {% for image in component.collection %}
     <div>
       <p>
-        {{ image.description }}
+        {{ image.label }}
       </p>
       <img src="{{ image.value }}" alt="{{ image.label | default('Image') }}" />
     </div>
